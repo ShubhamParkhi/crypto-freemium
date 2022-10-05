@@ -18,7 +18,7 @@ export default function Faq2() {
         <img
           src="720ca4_16e7408d0b214b55bc869e4ce395aff5_mv2.webp"
           alt=""
-          className="max-width: 100%"
+          className="rounded img-fluid max-width: 100%"
         />
       </center>
       <hr />

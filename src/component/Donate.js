@@ -50,49 +50,51 @@ export default function Donate() {
         Crypto-Freemium Community Fund Addresses
       </h1>
       <br />
-      <table className="table table-bordered table-responsive bg-light">
-        <tbody>
-          <tr>
-            <td>Binance Pay</td>
-            <td>
-              <a
-                className="text-center navbar-brand text-primary"
-                href="http://t.me/the_eye_crypto_freemium"
-              >
-                Message me!
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>USDT (TRC20)</td>
-            <td>TXvn6rW64cnjGTayj8soeG1z3Qa8UEEV6m</td>
-          </tr>
-          <tr>
-            <td>USDT (BEP20)</td>
-            <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
-          </tr>
-          <tr>
-            <td>USDT (ERC20)</td>
-            <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
-          </tr>
-          <tr>
-            <td>USDC (ERC20)</td>
-            <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
-          </tr>
-          <tr>
-            <td>BTC</td>
-            <td>bc1qdfkvmhm3kvr6pup2wyvamaffw0esqn7rrymx37</td>
-          </tr>
-          <tr>
-            <td>ETH</td>
-            <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
-          </tr>
-          <tr>
-            <td>BNB</td>
-            <td>bnb1zn3ta8af6rxl53actxwx53rqsqaa0nedequ7h4</td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="table-responsive rounded">
+        <table className="table table-striped table-hover table-bordered table-responsive bg-light rounded">
+          <tbody>
+            <tr>
+              <td>Binance Pay</td>
+              <td>
+                <a
+                  className="text-center navbar-brand text-primary"
+                  href="http://t.me/the_eye_crypto_freemium"
+                >
+                  Message me!
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>USDT (TRC20)</td>
+              <td>TXvn6rW64cnjGTayj8soeG1z3Qa8UEEV6m</td>
+            </tr>
+            <tr>
+              <td>USDT (BEP20)</td>
+              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+            </tr>
+            <tr>
+              <td>USDT (ERC20)</td>
+              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+            </tr>
+            <tr>
+              <td>USDC (ERC20)</td>
+              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+            </tr>
+            <tr>
+              <td>BTC</td>
+              <td>bc1qdfkvmhm3kvr6pup2wyvamaffw0esqn7rrymx37</td>
+            </tr>
+            <tr>
+              <td>ETH</td>
+              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+            </tr>
+            <tr>
+              <td>BNB</td>
+              <td>bnb1zn3ta8af6rxl53actxwx53rqsqaa0nedequ7h4</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
