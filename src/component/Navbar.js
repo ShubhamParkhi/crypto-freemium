@@ -8,12 +8,13 @@ export default function Navbar() {
       aria-label="Offcanvas navbar large"
     >
       <div className="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
-        <Link className="navbar-brand py-0 px-0" to="/">
-          <img src="/cryptofreemium.png" width="40" alt="" />
+        <div></div>
+        <Link className="navbar-brand py-0 px-0 ms-4" to="/">
+          <img src="/cryptofreemium.png" width="50" alt="" />
         </Link>
-        <Link className="navbar-brand" to="/">
+        {/* <Link className="navbar-brand" to="/">
           Crypto Freemium
-        </Link>
+        </Link> */}
         <button
           className="navbar-toggler p-0 border-0"
           type="button"
