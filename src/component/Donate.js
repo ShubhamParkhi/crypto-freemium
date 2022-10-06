@@ -54,43 +54,53 @@ export default function Donate() {
         <table className="table table-striped table-hover table-bordered table-responsive bg-light rounded">
           <tbody>
             <tr>
-              <td>Binance Pay</td>
-              <td>
+              <th scope="row">Binance Pay</th>
+              <th scope="col">
                 <a
                   className="text-center navbar-brand text-primary"
                   href="http://t.me/the_eye_crypto_freemium"
                 >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-send-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
+                  </svg>{" "}
                   Message me!
                 </a>
-              </td>
+              </th>
             </tr>
             <tr>
-              <td>USDT (TRC20)</td>
-              <td>TXvn6rW64cnjGTayj8soeG1z3Qa8UEEV6m</td>
+              <th scope="row">USDT (TRC20)</th>
+              <th scope="col">TXvn6rW64cnjGTayj8soeG1z3Qa8UEEV6m</th>
             </tr>
             <tr>
-              <td>USDT (BEP20)</td>
-              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+              <th scope="row">USDT (BEP20)</th>
+              <th scope="col">0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</th>
             </tr>
             <tr>
-              <td>USDT (ERC20)</td>
-              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+              <th scope="row">USDT (ERC20)</th>
+              <th scope="col">0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</th>
             </tr>
             <tr>
-              <td>USDC (ERC20)</td>
-              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+              <th scope="row">USDC (ERC20)</th>
+              <th scope="col">0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</th>
             </tr>
             <tr>
-              <td>BTC</td>
-              <td>bc1qdfkvmhm3kvr6pup2wyvamaffw0esqn7rrymx37</td>
+              <th scope="row">BTC</th>
+              <th scope="col">bc1qdfkvmhm3kvr6pup2wyvamaffw0esqn7rrymx37</th>
             </tr>
             <tr>
-              <td>ETH</td>
-              <td>0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</td>
+              <th scope="row">ETH</th>
+              <th scope="col">0x24F11B876c6FE9C7152bF7DC3b8c61873B09873d</th>
             </tr>
             <tr>
-              <td>BNB</td>
-              <td>bnb1zn3ta8af6rxl53actxwx53rqsqaa0nedequ7h4</td>
+              <th scope="row">BNB</th>
+              <th scope="col">bnb1zn3ta8af6rxl53actxwx53rqsqaa0nedequ7h4</th>
             </tr>
           </tbody>
         </table>

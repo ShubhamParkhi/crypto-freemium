@@ -27,3 +27,8 @@ html {
   overflow: hidden;
   height: 100%;
 }
+
+.text-bg-dark {
+  color: #fff !important;
+  background-color: black !important;
+}
