@@ -112,7 +112,6 @@ export default function Peoplebehind() {
           alt=""
           className="rounded img-fluid max-width: 100%"
         />
-        <hr />
       </center>
 
       <hr />
