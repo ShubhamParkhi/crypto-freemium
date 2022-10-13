@@ -153,7 +153,7 @@ export default function About() {
             vision and mission{" "}
             <Link
               className="navbar-brand text-primary"
-              to="/about-crypto-freemium-and-the-people-behind-it-a-thread"
+              to="/about-crypto-freemium-and-the-people-behind-it"
             >
               click here
             </Link>
