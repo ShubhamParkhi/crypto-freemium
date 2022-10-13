@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="ms-4"></div>
         <center>
           <Link className="navbar-brand py-0 px-0 m-0" to="/">
-            <img src="/cryptofreemium.png" width="50" alt="" />
+            <img src="/cryptofreemium.png" width="40" alt="" />
           </Link>
         </center>
         <button
